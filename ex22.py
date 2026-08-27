@@ -1,0 +1,5 @@
+inteiro = str(input("Digite o seu nome inteiro: ")).strip()
+print("Seu nome escrito apenas com letras maiúsculas é: {}".format(inteiro.upper()))
+print("Seu nome escrito apenas com letras minúsculas é: {}".format(inteiro.lower()))
+print("Seu nome inteiro tem {} letras".format(len(inteiro) - inteiro.count(" ")))
+print("Seu primeiro nome tem {} letras".format(inteiro.find(" ")))
